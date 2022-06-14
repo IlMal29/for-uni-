@@ -174,9 +174,9 @@ struct ContentView: View {
     }
   //
     func buttonWidth(item: CalcButton) -> CGFloat {
-        //if item == .zero {
-           // return ((UIScreen.main.bounds.width - (4*12)) / 4)*2
-        //}
+        if item == .zero {
+            return ((UIScreen.main.bounds.width - (4*12)) / 4)*2
+        }
         return (UIScreen.main.bounds.width - (5*12)) / 4
     }
     func buttonHeight() -> CGFloat {
