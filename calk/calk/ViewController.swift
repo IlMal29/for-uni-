@@ -121,6 +121,7 @@ struct ContentView: View {
                 self.currentOperation = .desimal
                 self.runningNumber = Int(self.value) ?? 0
             }
+            //Fix bag 
             else if button == .add{
                 self.currentOperation = .add
                 self.runningNumber = Int(self.value) ?? 0
