@@ -189,4 +189,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+// appstore ver1
 
